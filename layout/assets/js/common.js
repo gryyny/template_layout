@@ -7,10 +7,10 @@ $(document).ready(function() {
 
     // popups init
     $('.popup-wr').each(function () {
-        var self = $(this);
-        self.on('click','.popup-overlay, .close', function (e) {
+        var $self = $(this);
+        $self.on('click','.popup-overlay, .close, [data-close]', function (e) {
             e.preventDefault();
-            closePopup(self.attr('id'));
+            closePopup($self.attr('id'));
         });
     });
 

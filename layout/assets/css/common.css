@@ -144,9 +144,9 @@ html, a { -webkit-tap-highlight-color: transparent; }
 
 body { background-color: #fff; font-family: "Arial", sans-serif; font-size: 14px; font-weight: 400; line-height: 1; color: #333333; -webkit-font-smoothing: antialiased; }
 
-.btn { display: inline-block; vertical-align: middle; padding: 10px 28px; color: white; cursor: pointer; font-size: 13px; line-height: 23px; background-color: #f9a11a; text-transform: uppercase; text-decoration: none; margin: 10px 0; border: 1px solid transparent; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; font-weight: 400; letter-spacing: 0.02em; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; -webkit-transition: background .3s, border .3s; -o-transition: background .3s, border .3s; -moz-transition: background .3s, border .3s; transition: background .3s, border .3s; }
+.btn { display: inline-block; vertical-align: middle; padding: 10px 20px; color: white; cursor: pointer; font-size: inherit; line-height: inherit; font-weight: inherit; background-color: #333333; text-decoration: none; margin: 10px; border: 1px solid #333333; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; outline: none; -webkit-transition: background .3s, color .3s; -o-transition: background .3s, color .3s; -moz-transition: background .3s, color .3s; transition: background .3s, color .3s; }
 
-.btn:hover { background-color: #333333; }
+.btn:hover { background-color: white; color: #333333; }
 
 .popup-wr.show { z-index: 110; visibility: visible; }
 
@@ -166,7 +166,7 @@ body { background-color: #fff; font-family: "Arial", sans-serif; font-size: 14px
 
 .popup-wr .popup .close:hover svg { fill: #333333; }
 
-.popup-wr .popup-inner { background-color: #ffffff; padding: 35px 45px; font-size: 13px; line-height: 18px; }
+.popup-wr .popup-inner { background-color: #ffffff; padding: 35px 45px; text-align: center; }
 
 /* Desktops and laptops (small screens) ----------- */
 /* portrait view ----------- */

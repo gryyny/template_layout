@@ -9,7 +9,7 @@ const gutil = require('gulp-util');
 var reload = browserSync.reload;
 
 var src = {
-    scss: 'assets/sass/**/*.scss',
+    scss: 'sass/**/*.scss',
     css: 'assets/css',
 
     html: ['*.html', 'Views/**/*.cshtml'],
@@ -20,7 +20,7 @@ gulp.task('serve', ['sass'], function () {
 
     browserSync.init({
         server: "./",
-        port: 3033
+        port: 3000
     });
 
     // browserSync({
