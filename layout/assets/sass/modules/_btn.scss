@@ -1,0 +1,23 @@
+.btn {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 28px;
+	color: $extra-color;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 23px;
+	background-color: #f9a11a;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 10px 0;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	box-shadow: none;
+	transition: background .3s, border .3s;
+
+	&:hover {
+		background-color: #333333;
+	}
+}
