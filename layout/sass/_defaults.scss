@@ -27,13 +27,13 @@ body {
 }
 
 .full-height {
-	position: relative;
 	min-height: 100vh;
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: stretch;
+	overflow: hidden;
 }
 
 .full-width {
