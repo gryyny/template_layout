@@ -25,3 +25,25 @@ body {
     color: $base-color;
     -webkit-font-smoothing: antialiased;
 }
+
+.full-height {
+	position: relative;
+	min-height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.full-width {
+
+	.inner {
+		margin: 0 auto;
+		max-width: 980px;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
