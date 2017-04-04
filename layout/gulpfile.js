@@ -33,10 +33,6 @@ gulp.task('serve', ['sass'], function () {
     gulp.watch(src.js).on('change', reload);
 });
 
-gulp.task('sassWatch', ['sass'], function() {
-    gulp.watch(src.scss, ['sass']);
-});
-
 // Compile sass into CSS
 gulp.task('sass', function () {
     var s = sass.sync({
